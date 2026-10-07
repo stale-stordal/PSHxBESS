@@ -1,0 +1,11 @@
+gurobipy
+matplotlib
+numba
+numpy
+pandas
+pyomo
+scipy
+scikit-learn
+tqdm
+pyarrow
+fastparquet

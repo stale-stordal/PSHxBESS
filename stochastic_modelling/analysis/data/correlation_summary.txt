@@ -1,0 +1,6 @@
+Spot-FCR Pearson correlation of yearly mean prices
+==================================================
+
+Simulated (all 2000 paths x 50 years = 100,000 obs): rho = +0.5052
+Simulated (path x decade means):                 rho = +0.6759
+Historical (overlapping years 2015–2025, n=11):  rho = +0.7339

@@ -1,0 +1,12 @@
+"""Sensitivity: fast spike/drop volatility decay  (λ = 0.30, baseline = 0.1)."""
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from stochastic_modelling.sensitivity_runs._run_sensitivity import run
+
+run(
+    run_name  = "sensitivity_spike_decay_0.30",
+    overrides = {
+        "SPIKE_DECAY_RATE": 0.30,
+        "SIGMA_DECAY_RATE": 0.30,
+    },
+)
